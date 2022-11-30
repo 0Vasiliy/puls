@@ -1,0 +1,89 @@
+@media(max-width:1400px) {
+    .header {
+        padding-left: 30px;
+        padding-right:100px;
+    }
+    .promo__wrapper {
+        padding-left: 30px;
+        padding-right:100px;
+    }
+    .advantages {
+        padding-left: 30px;
+        padding-right:100px;
+    }
+}
+
+@media(max-width:1200px) {
+    .header {
+        padding-left: 30px;
+        padding-right:200px;
+    }
+    .promo__wrapper {
+        padding-left: 30px;
+        padding-right:200px;
+    }
+    .advantages {
+        padding-left: 50px;
+        padding-right:170px;
+        &__item {
+            max-width: 200px;
+            img {
+                max-width: 60px;
+            }   
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+}
+@media(max-width:991px) {
+    .header {
+        padding-left: 100px;
+        padding-right:100px;
+        &__logo {
+            width: 170px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+            }
+        &__contacts {
+            margin-right: 65px;
+        }
+    }
+    
+    .button {
+        &_header {
+            width: 130px;
+            height: 28px;
+        }
+        &_main {
+            width: 250px;
+            height: 40px;
+        }  
+    }          
+    .promo {
+        &__wrapper {
+            padding-left: 30px;
+            padding-right:160px;
+        }    
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }    
+    .advantages {
+        padding-left: 100px;
+        padding-right:50px;
+    }
+}
