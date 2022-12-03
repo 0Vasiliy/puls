@@ -239,5 +239,25 @@
             justify-content: center;
         }
     }
-    
+    .title{
+        font-size: 26px;
+    }
+    .feed{
+        &__img{
+            width: 139px;
+            height: 139px;
+        }
+        &__text{
+            padding-right: 80px;
+        }
+        &__subtitle{
+            font-size: 16px;
+        }
+        &__count{
+            font-size: 11px;
+        }
+        &__descr{
+            font-size: 14px;
+        }
+    }
 }
