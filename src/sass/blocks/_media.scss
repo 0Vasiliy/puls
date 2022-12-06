@@ -261,3 +261,87 @@
         }
     }
 }
+@media(max-width:576px){
+    .header {
+        padding-left: 60px;
+        padding-right:60px;
+        &__logo {
+            width: 100px;
+        }
+        &__official {
+            font-size: 9px;
+            span {
+                font-size: 12px;
+            }
+        }
+        &__phone {
+            font-size: 10px;
+            }
+        &__contacts {
+            margin-right: 45px;
+        }
+    }
+    
+    .button {
+        &_header {
+            width: 100px;
+            height: 23px;
+            font-size: 9px;
+        }
+        &_main {    
+            width: 160px;
+            height: 28px;
+            font-size: 10px;
+        } 
+        &_submit{
+            width: 100%;
+            height: 45px;
+            font-size: 14px;
+        } 
+    }          
+    .promo {
+        &__wrapper {
+            padding-left: 18px;
+            padding-right:100px;
+        }    
+        &__header {
+            font-size: 26px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+        &__icons{
+            width: 340px;
+        }
+        &__link{
+            font-size: 10px;
+        }
+    }
+    .advantages {
+        padding-left: 16px;
+        padding-right:16px;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        &__item { 
+            margin-top: 20px;
+            max-width: 180px;
+            img {
+                max-width: 50px;
+            }   
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 10px;
+        }
+        
+    }
+    .title{
+        font-size: 18px;
+    }
+}
+ 
